@@ -1,10 +1,6 @@
 import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 
-// export const Profile = ({text}) => {
-//     return <h1 className={css.title}>HELLO</h1>
-// };
-
 
 export const Profile = ({
     username,
