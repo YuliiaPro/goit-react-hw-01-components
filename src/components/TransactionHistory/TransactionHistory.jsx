@@ -22,3 +22,10 @@ export const TransactionHistory = ({ items }) => {
   </tbody>
 </table>
 };
+
+TransactionHistory.prototype = {
+    id: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+  amount: PropTypes.number.isRequired,
+    currency: PropTypes.string.isRequired,
+};
